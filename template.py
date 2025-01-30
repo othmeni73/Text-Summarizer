@@ -5,8 +5,6 @@ import logging
 logging.basicConfig(level = logging.INFO, format = '[%(asctime)s]: %(message)s:')
 
 project_name ="textSummarizer"
-# The github/workflows/ directory is typically used for storing GitHub Actions workflow YAML files.
-#Adding a .gitkeep ensures the directory exists in the repository, even if there are no workflows yet.
 list_of_files = [
     ".github/workflows/.gitkeep",
     f"src/{project_name}/__init__.py",
