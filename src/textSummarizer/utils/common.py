@@ -1,7 +1,7 @@
 import os
 from box.exceptions import BoxValueError
 import yaml
-from textSummarizer import logger
+from textSummarizer.logging import logger
 import json
 import joblib
 from ensure import ensure_annotations
